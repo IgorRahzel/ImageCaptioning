@@ -1,0 +1,3 @@
+ - O trabalho foi feito no google colab, então é possível que alguns caminhos dos diretórios tenham que ser alterados, caso o notebook seja executado fora desse ambiente
+
+ - Como mencionado no vídeo não é necessário treinar o modelo novamente. Basta substituir o caminho para o arquivo `model_epoch_140.pth` na célula de hiperparâmetros: `model.load_state_dict(torch.load('/content/drive/MyDrive/modelsNLP/model_epoch_140.pth'))`
